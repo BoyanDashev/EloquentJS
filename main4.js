@@ -1,3 +1,4 @@
+
 function dominantDirection(text) {
   let counted = countBy(text, (char) => {
     let script = characterScript(char.codePointAt(0));
@@ -12,3 +13,5 @@ console.log(dominantDirection("Hello!"));
 // → ltr
 console.log(dominantDirection("Hey, مساء الخير"));
 // → rtl
+
+
